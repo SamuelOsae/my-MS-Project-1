@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Roboto;
+    color: #777777;
+
+}
+
+h2 {
+    font-family: lato;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #555555;
+}
+
+#logo {
+    float: left;
+    font-size: 280;
+}
+
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+}
+
+#logo, #menu {
+    line-height: 75px;
+
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+}
+
+#menu a {
+text-decoration: none;
+color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #777777;
+}
+
+.active {
+    border-bottom: 1px solid #777777;
+}
+
+#main-image {
+        height: 600px;
+        width: 100%;
+        background:attach image;
+        animation-name: font-image;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+}
+
+#front-image {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes front-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale();
+
+    }
+}
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+            text-align: center;
+}
+
+.social-networks li {
+            display: inline;
+}
+
+.social-networks i {
+            font-size: 160%;
+            margin: 1%;
+            padding: 5%;
+            color: #777777;
+}
